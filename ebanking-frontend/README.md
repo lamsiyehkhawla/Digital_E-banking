@@ -1,29 +1,37 @@
-# DigitalBankingWeb
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+---
 
-## Development server
+# 💻 eBanking Frontend
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Angular SPA for managing eBanking operations. Connects to the Spring Boot backend to handle customers, accounts, and transactions.
 
-## Code scaffolding
+## 🌐 Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- View customer list and details
+- Manage bank accounts
+- Create new operations (debit, credit, transfer)
+- Connects to Spring Boot API via `HttpClient`
 
-## Build
+## 🛠️ Tech Stack
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular 19
+- TypeScript
+- RxJS
+- HTML / CSS
 
-## Running unit tests
+## 🚀 Run the Frontend
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+cd ebanking-frontend
+npm install
+ng serve
+```
+App will run at:
+http://localhost:4200
+Ensure the backend is running at http://localhost:8080.
 
-## Running end-to-end tests
+📦 Backend API Dependency
+This app consumes the REST API from eBanking Backend.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# Digital-Banking-FrontEnd
-# Digital-Banking-FrontEnd
+📝 Author
+Khawla Lamsiyeh
