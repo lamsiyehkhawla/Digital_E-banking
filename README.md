@@ -24,7 +24,7 @@ Digital_banking/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/yourusername/Digital_banking.git
+git clone https://github.com/lamsiyehkhawla/Digital_banking.git
 cd Digital_banking
 ```
  Run the Backend
