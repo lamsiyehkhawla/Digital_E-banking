@@ -15,6 +15,7 @@ A full-stack digital banking application consisting of:
 
 Digital_banking/
 ├── ebanking-backend/ # Spring Boot API
+
 └── ebanking-frontend/ # Angular 
 
 ---
